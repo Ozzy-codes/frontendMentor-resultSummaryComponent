@@ -10,6 +10,10 @@ body {
     flex-direction: column;
 }
 
+div {
+    border: 1px solid black;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
