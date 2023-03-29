@@ -6,12 +6,19 @@
 
 body {
     height: 100vh;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
 }
 
 div {
     border: 1px solid black;
+}
+
+.total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .attribution {
