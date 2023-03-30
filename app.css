@@ -52,8 +52,12 @@ div {
     justify-content: flex-start;
 }
 
-.taskScore div:last-child {
+.taskScore *:last-child {
     margin-left: auto;
+}
+
+.taskScore *:first-child {
+    padding-right: .5rem;
 }
 
 .attribution {
