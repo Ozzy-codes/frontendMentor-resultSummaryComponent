@@ -45,6 +45,12 @@ div {
     align-items: flex-start;
 }
 
+.taskScore {
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
