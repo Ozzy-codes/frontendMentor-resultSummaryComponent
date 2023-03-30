@@ -52,10 +52,8 @@ div {
     justify-content: flex-start;
 }
 
-.taskScore:last-child {
-    /* can't use the justify-self when using flexbox - jusify content operates by controling how leftover space is used
-i.e. where the empty space is placed in relationship to the group of items */
-    justify-self: flex-end;
+.taskScore div:last-child {
+    margin-left: auto;
 }
 
 .attribution {
