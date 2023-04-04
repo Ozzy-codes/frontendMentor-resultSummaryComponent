@@ -13,7 +13,7 @@ body {
 }
 
 div {
-    border: 1px solid black;
+    border: .5px solid black;
 }
 
 .total {
@@ -21,6 +21,8 @@ div {
     flex-direction: column;
     align-items: center;
     padding: 2rem 3rem;
+    border-radius: 0 0 2rem 2rem;
+    /* background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%)) */
 }
 
 .total>*+* {
@@ -51,6 +53,7 @@ div {
     padding: .5rem;
     display: flex;
     justify-content: flex-start;
+    border-radius: .5rem;
 }
 
 .taskScore *:last-child {
