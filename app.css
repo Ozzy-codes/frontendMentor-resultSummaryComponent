@@ -28,7 +28,7 @@ div {
 
 .total {
     align-items: center;
-    padding: 2rem 3rem;
+    padding: 1.25rem 3rem 2rem 3rem;
     border-radius: 0 0 2rem 2rem;
     background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
     color: hsl(241, 100%, 89%);
@@ -69,7 +69,7 @@ div {
 }
 
 .itemizedSummary {
-    padding: 1rem;
+    padding: 1.25rem 2rem 0 2rem;
     align-items: flex-start;
 }
 
