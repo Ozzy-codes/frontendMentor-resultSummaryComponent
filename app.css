@@ -16,22 +16,26 @@ div {
     border: .5px solid black;
 }
 
-.total {
+.marginTop>*+* {
+    margin-top: 1rem;
+}
+
+.flexColumn {
     display: flex;
     flex-direction: column;
+}
+
+.total {
     align-items: center;
     padding: 2rem 3rem;
     border-radius: 0 0 2rem 2rem;
     /* background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%)) */
 }
 
-.total>*+* {
-    margin-top: 1rem;
-}
 
-.score>*+* {
+/* .score>*+* {
     margin-top: 1rem;
-}
+} */
 
 .total .score {
     width: 7rem;
