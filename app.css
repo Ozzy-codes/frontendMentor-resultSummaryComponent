@@ -84,6 +84,11 @@ div {
 
 .taskScore *:last-child {
     margin-left: auto;
+    font-weight: 700;
+}
+
+.taskScore *:last-child span {
+    opacity: .3;
 }
 
 .taskScore *:first-child {
