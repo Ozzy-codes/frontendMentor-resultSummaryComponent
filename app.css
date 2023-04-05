@@ -36,12 +36,14 @@ div {
 
 .total>*:nth-child(3) {
     color: white;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 .total>*:last-child {
     font-size: .95rem;
     text-align: center;
+    opacity: .75;
+    margin-top: .75rem;
 }
 
 .score>*:first-child {
