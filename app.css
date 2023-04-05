@@ -75,10 +75,11 @@ div {
 
 .taskScore {
     width: 100%;
-    padding: .5rem;
+    padding: .75rem;
     display: flex;
     justify-content: flex-start;
     border-radius: .5rem;
+    font-size: 0.95rem;
 }
 
 .taskScore *:last-child {
@@ -91,6 +92,38 @@ div {
 
 .maxWidth {
     width: 100%;
+}
+
+.reactionBackground {
+    background: hsl(0, 100%, 67%, .075);
+}
+
+.memoryBackground {
+    background: hsl(39, 100%, 56%, .075);
+}
+
+.verbalBackground {
+    background: hsl(166, 100%, 37%, .075);
+}
+
+.visualBackground {
+    background: hsl(234, 85%, 45%, .075);
+}
+
+.reactionColor {
+    color: hsl(0, 100%, 67%);
+}
+
+.memoryColor {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbalColor {
+    color: hsl(166, 100%, 37%);
+}
+
+.visualColor {
+    color: hsl(234, 85%, 45%);
 }
 
 button {
