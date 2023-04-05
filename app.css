@@ -132,6 +132,8 @@ button {
     padding: .75rem;
     border: 0;
     border-radius: 20px;
+    color: white;
+    background: hsl(224, 30%, 27%);
 }
 
 .attribution {
