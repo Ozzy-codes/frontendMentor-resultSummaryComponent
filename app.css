@@ -76,9 +76,18 @@ div {
     align-items: flex-start;
 }
 
+.itemizedSummary>*:nth-child(1) {
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+
+.itemizedSummary>*:nth-child(2)>*+* {
+    margin-top: 1rem;
+}
+
 .taskScore {
     width: 100%;
-    padding: .75rem;
+    padding: 1rem;
     display: flex;
     justify-content: flex-start;
     border-radius: .5rem;
@@ -137,17 +146,17 @@ div {
 button {
     width: 100%;
     font-size: 18px;
-    padding: .75rem;
+    padding: 1rem;
     border: 0;
-    border-radius: 20px;
-    color: white;
+    border-radius: 1.75rem;
+    color: hsl(221, 100%, 96%);
     background: hsl(224, 30%, 27%);
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
-    margin-top: .25rem;
+    padding: .5rem;
 }
 
 .attribution a {
