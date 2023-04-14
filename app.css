@@ -13,9 +13,9 @@ body {
     flex-direction: column;
 }
 
-div {
+/* div {
     border: .5px solid black;
-}
+} */
 
 .marginTop>*+* {
     margin-top: 1.5rem;
@@ -28,7 +28,7 @@ div {
 
 .total {
     align-items: center;
-    padding: 1.5rem 3rem 2rem 3rem;
+    padding: 1.5rem 3rem 2.25rem 3rem;
     border-radius: 0 0 2rem 2rem;
     background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
     color: hsl(241, 100%, 89%);
@@ -37,6 +37,7 @@ div {
 .total>*:nth-child(3) {
     color: white;
     font-size: 1.5rem;
+    margin-top: 1.25rem;
 }
 
 .total>*:last-child {
@@ -56,23 +57,20 @@ div {
     font-size: .90rem;
     color: hsl(241, 100%, 89%, .5);
     font-weight: 700;
+    margin-bottom: 1.5rem;
 }
-
-/* .score>*+* {
-    margin-top: 1rem;
-} */
 
 .total .score {
     width: 9rem;
     height: 9rem;
     border-radius: 50%;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     background: linear-gradient(to top, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
 }
 
 .itemizedSummary {
-    padding: 1.25rem 2rem 0 2rem;
+    padding: 1.75rem 2rem 0 2rem;
     align-items: flex-start;
 }
 
@@ -82,7 +80,7 @@ div {
 }
 
 .itemizedSummary>*:nth-child(2)>*+* {
-    margin-top: 1rem;
+    margin-top: 1.25rem;
 }
 
 .taskScore {
