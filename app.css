@@ -30,7 +30,7 @@ body {
     align-items: center;
     padding: 1.5rem 3rem 2.25rem 3rem;
     border-radius: 0 0 2rem 2rem;
-    background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    background: linear-gradient(to top, #312cea, #6743ff);
     color: hsl(241, 100%, 89%);
 }
 
@@ -66,7 +66,7 @@ body {
     border-radius: 50%;
     justify-content: end;
     align-items: center;
-    background: linear-gradient(to top, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+    background: linear-gradient(to top, hsla(241, 72%, 46%, 0), #4825d1);
 }
 
 .itemizedSummary {
