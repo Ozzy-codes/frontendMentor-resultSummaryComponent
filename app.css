@@ -191,9 +191,16 @@ button {
 
     .total {
         border-radius: 2rem;
-        padding: 3rem;
+        padding: 1.75rem 3rem 3rem 3rem;
     }
-
+    .total .score {
+        width: 10em;
+        height: 10em;
+        justify-content: center;
+    }
+    .mediaMarginTop {
+        margin-top: 1.5rem;
+    }
     .flexColumn {
         justify-content: space-between;
     }
