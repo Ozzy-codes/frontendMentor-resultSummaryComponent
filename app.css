@@ -115,25 +115,29 @@ body {
 }
 
 .reactionBackground {
-    background: url('./assets/images/resultCard_taskCorner.svg'), hsl(0, 100%, 67%, .075);
+    /* background: url('./assets/images/resultCard_taskCorner.svg'), hsl(0, 100%, 67%, .075); */
+    background: hsl(0, 100%, 67%, .075);
     background-size: 100%, auto;
     opacity: .75;
 }
 
 .memoryBackground {
-    background: url('./assets/images/resultCard_taskCorner.svg'), hsl(39, 100%, 56%, .075);
+    /* background: url('./assets/images/resultCard_taskCorner.svg'), hsl(39, 100%, 56%, .075); */
+    background: hsl(39, 100%, 56%, .075);
     background-size: 100%, auto;
     opacity: .75;
 }
 
 .verbalBackground {
-    background: url('./assets/images/resultCard_taskCorner.svg'), hsl(166, 100%, 37%, .075);
+    /* background: url('./assets/images/resultCard_taskCorner.svg'), hsl(166, 100%, 37%, .075); */
+    background: hsl(166, 100%, 37%, .075);
     background-size: 100%, auto;
     opacity: .75;
 }
 
 .visualBackground {
-    background: url('./assets/images/resultCard_taskCorner.svg'), hsl(234, 85%, 45%, .075);
+    /* background: url('./assets/images/resultCard_taskCorner.svg'), hsl(234, 85%, 45%, .075); */
+    background: hsl(234, 85%, 45%, .075);
     background-size: 100%, auto;
     opacity: .75;
 }
