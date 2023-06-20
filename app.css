@@ -171,6 +171,12 @@ button {
     color: hsl(221, 100%, 96%);
     background: hsl(224, 30%, 27%);
 }
+button:hover, button:focus {
+    box-shadow: 0.5rem 0.5rem 0.25em lightgrey;
+}
+button:active {
+    background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+}
 
 .attribution {
     font-size: 11px;
