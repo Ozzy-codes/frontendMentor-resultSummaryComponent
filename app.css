@@ -22,6 +22,10 @@ body {
     margin-top: 1.5rem;
 }
 
+.remove-margin {
+    margin: 0;
+}
+
 .flexColumn {
     display: flex;
     flex-direction: column;
@@ -81,7 +85,7 @@ body {
 }
 
 .itemizedSummary>*:nth-child(2)>*+* {
-    margin-top: 1.25rem;
+    margin-top: 1rem;
 }
 
 .taskScore {
@@ -185,12 +189,18 @@ button {
         box-shadow: 1rem 1.5rem 2em lightgrey;
         border-radius: 1.5rem;
     }
-
     body {
         justify-content: center;
         font-size: 20px;
     }
-
+    
+    .flexColumn {
+        justify-content: space-between;
+    }
+    .heading-increase {
+        font-size: 1.5rem;
+    }
+    
     .total {
         border-radius: 1.5rem;
         padding: 1.75rem 3rem 3rem 3rem;
@@ -200,11 +210,14 @@ button {
         height: 10em;
         justify-content: center;
     }
-    .mediaMarginTop {
+    .total-media-marginTop {
         margin-top: 1.5rem;
     }
-    .flexColumn {
-        justify-content: space-between;
-    }
 
+    .new-summary-spacing > div:nth-child(n+2) {
+        margin-top: 2rem;
+    }
+    .summary-marginTop > form {
+        margin-top: 2.5rem;
+    }
 }
