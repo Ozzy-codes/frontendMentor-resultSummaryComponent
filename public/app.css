@@ -114,25 +114,25 @@ body {
     max-width: 375px;
 }
 
-.reactionBackground {
+.backgroundReaction {
     background: hsl(0, 100%, 67%, .075);
     background-size: 100%, auto;
     opacity: .75;
 }
 
-.memoryBackground {
+.backgroundMemory {
     background: hsl(39, 100%, 56%, .075);
     background-size: 100%, auto;
     opacity: .75;
 }
 
-.verbalBackground {
+.backgroundVerbal {
     background: hsl(166, 100%, 37%, .075);
     background-size: 100%, auto;
     opacity: .75;
 }
 
-.visualBackground {
+.backgroundVisual {
     background: hsl(234, 85%, 45%, .075);
     background-size: 100%, auto;
     opacity: .75;
