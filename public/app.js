@@ -11,8 +11,21 @@ fetch("data.json")
       const sectionScore = document.createElement("div")
       const scoreTotal = document.createElement("span")
 
-      console.log(object.category)
-      console.log(object.score)
-      console.log(object.icon)
+      summarySection.setAttribute(
+        "class",
+        `taskScore background${object.category}`
+      )
+      summary_items.appendChild(summarySection)
+      sectionImg.setAttribute("src", `${object.icon}`)
+      sectionImg.setAttribute("alt", `${object.icon_alt}`)
+      summarySection.appendChild(sectionImg)
+      sectionTitle.setAttribute("class", `color${object.category}`)
+      sectionTitle.textContent = object.category
+      summarySection.appendChild(sectionTitle)
+      sectionScore.textContent = object.score
+      summarySection.appendChild(sectionScore)
+      scoreTotal.textContent = " / 100"
+      sectionScore.appendChild(scoreTotal)
     })
   })
+  .catch((error) => console.error("error:", error))
