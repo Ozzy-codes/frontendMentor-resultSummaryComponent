@@ -37,6 +37,7 @@ Users should be able to:
 - Every Layout - The Stack Methodology
 - CUBE CSS Methodology
 - Flexbox
+- > **UPDATE:** vanilla JS
 
 ### What I learned
 
@@ -107,6 +108,10 @@ and also _Block_ classes for unique components that require more attention e.g.
 
 I'm interested in exploring more examples of CSS methodologies that are designed with the global design in mind, and strengthening my understanding of the _CUBE_ and _Every Layout_ methods.
 I'm also not done with this product yet! I'm planning on populating the data on the card via JS and preventing the default behavior of the _continue_ button. Please feel free to share suggestions.
+
+> **UPDATE:**
+> I've included JS to dynamically render the individual topic results from a JSON file, and dynamically calculate the average score under the total result card. I've set the calculating logic to round averages with a decimal less than .50 down. Thanks to a loop, you may insert additional documents within the JSON file and a bulk of the styling will be auto generated. Lastly, the continue button no longer redirects, allowing the user to easily see active and hover/focus states.
+> Where do you recommend I start to refactor?
 
 ### Useful resources
 
