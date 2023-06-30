@@ -42,3 +42,7 @@ fetch("data.json")
     }
   })
   .catch((error) => console.error("error:", error))
+
+continue_button.addEventListener("click", function (event) {
+  event.preventDefault()
+})
