@@ -1,4 +1,6 @@
 const summary_items = document.querySelector("#summary_items")
+const continue_button = document.querySelector("#continue_button")
+const result_average = document.querySelector("#result_average")
 
 fetch("data.json")
   .then((response) => response.json())
