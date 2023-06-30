@@ -26,6 +26,12 @@ body {
     display: flex;
     flex-direction: column;
 }
+.font-base {
+    font-size: 1em;
+}
+.weight-base{
+    font-weight:500;
+}
 
 .total {
     align-items: center;
