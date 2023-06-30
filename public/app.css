@@ -138,19 +138,19 @@ body {
     opacity: .75;
 }
 
-.reactionColor {
+.colorReaction {
     color: hsl(0, 100%, 67%);
 }
 
-.memoryColor {
+.colorMemory {
     color: hsl(39, 100%, 56%);
 }
 
-.verbalColor {
+.colorVerbal {
     color: hsl(166, 100%, 37%);
 }
 
-.visualColor {
+.colorVisual {
     color: hsl(234, 85%, 45%);
 }
 
